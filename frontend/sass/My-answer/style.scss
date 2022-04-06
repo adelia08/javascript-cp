@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1&family=Roboto:wght@400;500&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+$primaryColor:"white";
+$secondary:#971111;
+$text:"black";
+$textp:#414242;
+
+$box-width: 100px;
+$box-height: 100px;
+
+
+.nav-link{
+    color:$text;
+}
+
+nav{
+    font-family: 'Bebas Neue';
+    padding: 10px 0;
+    ul{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  
+    li{
+      display: inline-block;
+    }
+  
+    a{
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+
+
+  body {
+    background-color:$primaryColor;
+    font-family: roboto;
+    // background-image:url(../assets/about.jpeg);
+  }
+
+  body{
+      a{
+        font-size:25px;
+      }
+  }
+  .men2{
+    float:left;
+    margin-right: 80px;
+
+}
+
+  .jumbotron{
+      h2{
+          font-size: 30px;
+          font-weight: bold;
+          text-align: justify;
+          margin-top: 180px;
+
+      }
+      p{
+          font-size: 20px;
+          font-weight: bold;
+          text-align: justify;
+          color:$textp;
+      }
+  }
+
+
+  .container{
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    padding: 1rem;
+
+  }
+
+  .col-md-3{
+      text-align: justify;
+      margin-left: 25px;
+      margin-right: 120px;
+  }
+
+  .buy{
+      background-color:$secondary;
+      color:#ffffff;
+      min-height: 50px;
+      min-width: 80px;
+      border-radius: 8px;
+
+  }
+
+footer{
+      background-color:$secondary;
+      padding:7px 0;
+      text-align: center;
+  }
+
+.row{
+      display: flex;
+      flex-wrap: wrap;
+
+  }
+footer ul{
+    list-style: none;
+}
+.footer-col{
+    width: 28%;
+    padding: 0 8px;
+    font-family: roboto;
+    li{
+        a{
+        font-family: Oswald;
+        font-size:18px;
+        color:black;
+        }
+    }
+
+}
+
+div h2{
+    font-family: 'Bebas Neue';
+    font-size: 40px;
+}
+
+
+.jumbotron2{
+    // background-image: url(../assets/about.jpeg);
+    background-size:100% auto;
+    background-position: center;
+    background-size: cover;
+    h1 p{
+        text-align: justify;
+        text-align: center;
+    }
+}

@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1&family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=M+PLUS+1&family=Roboto:wght@400;500&family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.nav-link {
+  color: "black";
+}
+
+nav {
+  font-family: 'Bebas Neue';
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+body {
+  background-color: "white";
+  font-family: roboto;
+}
+
+body a {
+  font-size: 25px;
+}
+
+.men2 {
+  float: left;
+  margin-right: 80px;
+}
+
+.jumbotron h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: justify;
+  margin-top: 180px;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: justify;
+  color: #414242;
+}
+
+.container {
+  overflow: hidden;
+  background: white;
+  padding: 1rem;
+}
+
+.col-md-3 {
+  text-align: justify;
+  margin-left: 25px;
+  margin-right: 120px;
+}
+
+.buy {
+  background-color: #971111;
+  color: #ffffff;
+  min-height: 50px;
+  min-width: 80px;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #971111;
+  padding: 7px 0;
+  text-align: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-col {
+  width: 28%;
+  padding: 0 8px;
+  font-family: roboto;
+}
+
+.footer-col li a {
+  font-family: Oswald;
+  font-size: 18px;
+  color: black;
+}
+
+div h2 {
+  font-family: 'Bebas Neue';
+  font-size: 40px;
+}
+
+.jumbotron2 {
+  background-size: 100% auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.jumbotron2 h1 p {
+  text-align: justify;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
